@@ -1,13 +1,33 @@
-.header {
-    color: #088F8F;
-}
-
 .details {
     padding: 20px;
-    text-align: center;
     font-family: Arial, sans-serif;
-}
-
-body {
+    color: #06283D;
     background: #f4f4f4;
-}
+    text-align: center;
+  }
+  
+  .current-weather,
+  .forecast {
+    margin: 20px 0;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .forecast-item {
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 180px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
