@@ -5,6 +5,7 @@ import {Details} from './pages/Details';
 import {Provider} from 'react-redux';
 import {store} from './store';
 import './App.css';
+import TemperatureSwitcher from './components/TemperatureSwitcher';
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
                 <div className="App">
                     <header>
                         <h1>Weather App</h1>
+                        <TemperatureSwitcher />
                     </header>
                     <Routes>
                         <Route path="/" element={<Home />} />
